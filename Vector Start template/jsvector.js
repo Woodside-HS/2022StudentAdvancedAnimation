@@ -96,5 +96,5 @@ JSVector.prototype.copy = function(){
 
 // Override inherited toString() to describe this instance
 JSVector.prototype.toString = function() {
-
+    return("x: " + this.x + ", y: " + this.y + "\n");
 }
