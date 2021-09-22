@@ -1,0 +1,28 @@
+Orbital Rotation Lab
+
+In this lab there are two classes of objects -- Movers and Orbiters
+
+Each Mover instance has a random number of Orbiter instances.  Each Orbiter
+instance has a Mover instance that it orbits.
+
+Each orbiter circles its mover at some radius.
+
+Each orbiter has an initial angle such that the orbiters are spaced
+evenly around the mover.
+
+The movers have vector velocities -- a direction and a magnitude.
+
+The orbiters have angular velocities which are scalar.  The angular
+velocities may be random but all the orbiters for a particular mover
+have the same angular velocity.
+
+The Mover constructor is responsible for creating all the orbiters.
+
+A mover instance has a run() method which is responsible for updating
+and drawing itself and is also responsible for "running" all of
+its orbiters.
+
+Drawing an orbiter should also draw a line connecting the center
+of the orbiter with the center of its mover.
+
+Consider that your jsvector class has a rotate() method.
